@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="navbar">
+    <ul class="navlist">
+      <li><a href="../index.html">Головна</a></li>
+      <li><a href="articles.html">Статті</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="contacts.html">Контакти</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="page_nav.html">Навігація</a></li>
+      <li><a href="registration.html">Реєстрація</a></li>
+    </ul>
+  </div>
+
+  <div class="container"></div>
+  <h1 class="title">Реєстрація</h1>
+
+  <form action="https://tests.fomenko.top/echo/index.php" method="get">
+
+    <fieldset>
+      <legend>Дані для входу в кабінет</legend>
+      <div>
+        <label for="email">Електронна пошта</label>
+        <input type="email" name="email" id="email" placeholder="email">
+      </div>
+
+      <div>
+        <label for="password">Пароль</label>
+        <input type="password" name="password" id="password" placeholder="password">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Особисті дані</legend>
+      <div class="form-group">
+        <label for="name">Ім'я</label>
+        <input type="text" name="name" id="name" placeholder="Ім'я">
+      </div>
+
+      <div class="form-group">
+        <label for="surname">Прізвище</label>
+        <input type="text" name="surname" id="surname" placeholder="Прізвище">
+      </div>
+
+      <div class="form-group">
+        <label for="date">Дата Народження</label>
+        <input type="date" name="date" id="date">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div>
+        <legend>Виберіть Стать</legend>
+        <div class="form-group-s">
+          <input type="checkbox" name="gender" id="man" value="Чоловік">
+          <label for="man">Чоловіча</label>
+        </div>
+
+        <div class="form-group-s">
+          <input type="checkbox" name="gender" id="woman" value="Жінка">
+          <label for="woman">Жіноча</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Вибір кольору кухні</legend>
+
+      <div class="form-group-s">
+        <label for="white">Білий</label>
+        <input type="checkbox" id="white" name="white">
+      </div>
+
+      <div class="form-group-s">
+        <label for="purple">Фіолетовий</label>
+        <input type="checkbox" id="purple" name="purple">
+      </div>
+
+      <div class="form-group-s">
+        <label for="rose">Розовий</label>
+        <input type="checkbox" id="rose" name="pink">
+      </div>
+
+      <div class="form-group-s">
+        <label for="black">Чорний</label>
+        <input type="checkbox" id="black" name="black">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Фото</legend>
+      <div class="form-group">
+        <label for="picture">Додати фотографію</label>
+        <input type="file" name="add img" id="picture">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Адреса сайту</legend>
+      <div class="form-group">
+        <label for="site">Адреса сайту</label>
+        <input type="url" name="site" id="site" value="https://mysite.name">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Додаткова інформація</legend>
+      <div class="form-group">
+        <label for="description">Про себе</label>
+        <textarea name="description" id="description" cols="40" rows="5" placeholder="Про себе"></textarea>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div class="form-group">
+        <input class="btn" type="submit" name="submit">
+        <button class="btn" type="reset">Очистити форму</button>
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="footer">
+    <footer>
+      <p>&#169; Suvorov</p>
+    </footer>
+  </div>
+</body>
+
+</html>
