@@ -35,13 +35,14 @@
 .navlist {
   height: inherit;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
   padding: 10px;
-  list-style-type: none;
+  list-style: none;
+  gap: 60px;
 }
 
 .article_name {
