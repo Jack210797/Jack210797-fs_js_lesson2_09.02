@@ -1,10 +1,10 @@
 # Information about project
 
-Структура сайту
--Головна
--Статті
--Каталог
--Контакти
--Галерея
--Навігація
--Реєстрація
+Site nav:  
+-index  
+-Articles (include 3 articles)  
+-Catalog  
+-Contacts  
+-Gallery  
+-Page_nav  
+-Registration
